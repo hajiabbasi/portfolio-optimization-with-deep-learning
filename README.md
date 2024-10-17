@@ -1,8 +1,9 @@
 # portfolio-optimization-with-deep-learning
-In this project, we implemented simple financial concepts such as risk and return, progressing to more complex financial ideas. Based on this foundation, a module named "mahdi" (after myself) was created to facilitate the implementation of these concepts in future projects. Additionally, portfolio optimization was performed in the Iranian stock market. 
+In this project, we have implemented concepts ranging from simple financial principles such as risk and return to more complex financial theories. Based on this, a module named **mahdi** has been created to facilitate the implementation of these concepts in future projects. 
 
-Given the annual depreciation of the national currency in Iran, the US dollar was chosen as an investment option. In the next project, titled "Tehran Stock Exchange with USD," portfolio optimization was conducted with the dollar considered as an investment factor. This file includes explanations about Conditional Value at Risk (CVaR), the Sharpe Ratio, and Modern Portfolio Theory.
-In this section, we delve into the implementation of the Markowitz model for portfolio optimization. The Markowitz model, introduced by Harry Markowitz in 1952, is a foundational concept in Modern Portfolio Theory (MPT). It focuses on maximizing returns while minimizing risk through optimal asset allocation. The model is based on the idea of efficient portfolios, where the expected return is maximized for a given level of risk, or conversely, where risk is minimized for a given level of expected return.
+Furthermore, portfolio optimization has been conducted in the Iranian stock market. Given that the value of the national currency in Iran decreases annually, the US dollar is used as an investment option. In the next project, titled **Tehran Stock Exchange with USD**, portfolio optimization will consider the dollar as the investment factor.
+
+This file includes explanations of Conditional Value at Risk (CVaR), Sharpe Ratio, semi-volatility, Yield to Maturity (YTM), annual volatility, and Modern Portfolio Theory. If you are interested in seeing the portfolio optimization solely through the application of classic machine learning models, please refer to the file **modern1**.
 
 
 where:
