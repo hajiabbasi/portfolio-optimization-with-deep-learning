@@ -4,17 +4,6 @@ In this project, we implemented simple financial concepts such as risk and retur
 Given the annual depreciation of the national currency in Iran, the US dollar was chosen as an investment option. In the next project, titled "Tehran Stock Exchange with USD," portfolio optimization was conducted with the dollar considered as an investment factor. This file includes explanations about Conditional Value at Risk (CVaR), the Sharpe Ratio, and Modern Portfolio Theory.
 In this section, we delve into the implementation of the Markowitz model for portfolio optimization. The Markowitz model, introduced by Harry Markowitz in 1952, is a foundational concept in Modern Portfolio Theory (MPT). It focuses on maximizing returns while minimizing risk through optimal asset allocation. The model is based on the idea of efficient portfolios, where the expected return is maximized for a given level of risk, or conversely, where risk is minimized for a given level of expected return.
 
-The optimization problem can be mathematically represented as:
-
-\[
-\text{Minimize} \quad \sigma_p^2 = \mathbf{w}^T \mathbf{C} \mathbf{w}
-\]
-
-subject to 
-
-\[
-\sum_{i=1}^n w_i = 1
-\]
 
 where:
 - \( \sigma_p^2 \) is the variance of the portfolio's returns,
